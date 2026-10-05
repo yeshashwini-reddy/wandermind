@@ -1,0 +1,953 @@
+[
+  {
+    "id": "goa",
+    "name": "Goa",
+    "tagline": "Sun, Golden Sands & Portuguese Heritage",
+    "description": "A vibrant blend of coastal beauty, colonial architecture, beach shacks, water sports, and tranquil inland spice plantations.",
+    "state": "Goa",
+    "coordinates": {"lat": 15.2993, "lng": 74.1240},
+    "hero_image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&q=80",
+      "https://images.unsplash.com/photo-1587922546307-776227941871?w=800&q=80",
+      "https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?w=800&q=80"
+    ],
+    "vibes": ["Relaxed", "Nightlife", "Adventure", "Foodie", "Nature"],
+    "best_season": "Nov - Feb (Pleasant 24°C - 31°C)",
+    "current_weather": {"temp": 28, "condition": "Sunny", "humidity": 68, "wind_speed": 12, "is_mock": true},
+    "crowd_level": "Medium-High",
+    "safety_score": 92,
+    "avg_cost_per_day": 3800,
+    "cost_tiers": {
+      "budget": 2200,
+      "balanced": 3800,
+      "premium": 7500
+    },
+    "ideal_duration_days": 4,
+    "mobility_friendly": true,
+    "suitable_for_elders": true,
+    "suitable_for_kids": true,
+    "tags": ["Popular", "Beach", "Culture", "Nightlife"],
+    "attractions": [
+      {
+        "id": "goa-1",
+        "name": "Basilica of Bom Jesus & Old Goa",
+        "category": "Heritage",
+        "type": "indoor_outdoor",
+        "duration_hours": 2.5,
+        "entry_fee": 50,
+        "coordinates": {"lat": 15.5009, "lng": 73.9116},
+        "description": "UNESCO World Heritage Baroque church holding the mortal remains of St. Francis Xavier.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "Archaeological Museum & Old Goa Art Gallery",
+        "timings": "09:00 - 18:30"
+      },
+      {
+        "id": "goa-2",
+        "name": "Palolem Beach & Silent Bay",
+        "category": "Beach",
+        "type": "outdoor",
+        "duration_hours": 3.0,
+        "entry_fee": 0,
+        "coordinates": {"lat": 15.0100, "lng": 74.0232},
+        "description": "Crescent beach with calm waters, dolphin cruises, and colorful wooden shacks.",
+        "elder_accessible": true,
+        "wheelchair_accessible": false,
+        "indoor_alternative": "Goa Chitra Museum & Indoor Spice Workshop",
+        "timings": "Open 24 Hours"
+      },
+      {
+        "id": "goa-3",
+        "name": "Sahakari Spice Farm Tour & Lunch",
+        "category": "Nature & Food",
+        "type": "covered_outdoor",
+        "duration_hours": 3.0,
+        "entry_fee": 500,
+        "coordinates": {"lat": 15.4223, "lng": 74.0264},
+        "description": "Guided walking tour through cardamom, vanilla, and peri-peri plantations with authentic Goan buffet.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "Traditional Spice Cooking Masterclass",
+        "timings": "09:00 - 17:00"
+      },
+      {
+        "id": "goa-4",
+        "name": "Fort Aguada & Lighthouse Viewpoint",
+        "category": "Sightseeing",
+        "type": "outdoor",
+        "duration_hours": 2.0,
+        "entry_fee": 50,
+        "coordinates": {"lat": 15.4925, "lng": 73.7736},
+        "description": "17th-century Portuguese fortress overlooking the Mandovi River meeting the Arabian Sea.",
+        "elder_accessible": false,
+        "wheelchair_accessible": false,
+        "indoor_alternative": "Museum of Goa (MOG) Contemporary Art",
+        "timings": "09:30 - 18:00"
+      },
+      {
+        "id": "goa-5",
+        "name": "Fontainhas Latin Quarter Walking Tour",
+        "category": "Culture",
+        "type": "outdoor",
+        "duration_hours": 2.0,
+        "entry_fee": 0,
+        "coordinates": {"lat": 15.4989, "lng": 73.8344},
+        "description": "Historic Latin neighborhood with bright terracotta roofed Portuguese heritage homes and artisan bakeries.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "Gitanjali Art Gallery & Confeitaria 31 de Janeiro",
+        "timings": "08:00 - 19:00"
+      }
+    ],
+    "food_guide": {
+      "veg_options": ["Goan Mushroom Xacuti", "Poi bread with Khatkhate Stew", "Vegetable Caldin", "Goan Kaju Curry"],
+      "non_veg_options": ["Fish Thali (Kingfish rava fry)", "Prawn Balchão", "Goan Pork Vindaloo", "Crab Xec Xec"],
+      "jain_options": ["No-onion no-garlic Vegetable Caldin", "Jain Paneer Balchão", "Steamed Sannas"],
+      "halal_options": ["Halal Chicken Xacuti at Fisherman's Wharf", "Tandoori Pomfret"],
+      "famous_cafes": ["Artjuna Cafe (Anjuna)", "Confeitaria 31 de Janeiro (Panaji)", "Mum's Kitchen"]
+    },
+    "precautions": [
+      "Keep sunscreen and stay hydrated; coastal humidity can cause rapid fatigue.",
+      "Check beach flags before entering the sea; red flags indicate high currents.",
+      "Rent certified scooters/cars only with valid helmets and insurance."
+    ],
+    "packing_list": [
+      "Breathable cotton clothes & swimwear",
+      "Reef-safe sunscreen (SPF 50+)",
+      "Flip-flops & sturdy walking sandals",
+      "Mosquito repellent lotion",
+      "Waterproof phone pouch"
+    ],
+    "etiquette": [
+      "Dress respectfully when visiting churches and temples (cover shoulders and knees).",
+      "Avoid clicking pictures of sunbathers without consent.",
+      "Say 'Deu borem korum' (May God bless you in Konkani) to warm up to locals."
+    ],
+    "emergency_info": {
+      "hospital": "Manipal Hospitals Goa, Dona Paula (+91 832 245 3000)",
+      "police": "Goa Tourist Police Helpline (100 / +91 832 242 5800)",
+      "ambulance": "108",
+      "women_helpline": "1091"
+    }
+  },
+  {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "tagline": "The Majestic Pink City & Royal Palaces",
+    "description": "Rajasthan's capital is a royal spectacle of hilltop fortresses, intricate handloom bazaars, and astronomical marvels.",
+    "state": "Rajasthan",
+    "coordinates": {"lat": 26.9124, "lng": 75.7873},
+    "hero_image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&q=80",
+      "https://images.unsplash.com/photo-1603288967394-0cfc366ff482?w=800&q=80",
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80"
+    ],
+    "vibes": ["Cultural", "Foodie", "Relaxed"],
+    "best_season": "Oct - Mar (Cool 12°C - 26°C)",
+    "current_weather": {"temp": 24, "condition": "Clear Sky", "humidity": 45, "wind_speed": 8, "is_mock": true},
+    "crowd_level": "High",
+    "safety_score": 90,
+    "avg_cost_per_day": 3400,
+    "cost_tiers": {
+      "budget": 2000,
+      "balanced": 3400,
+      "premium": 6800
+    },
+    "ideal_duration_days": 3,
+    "mobility_friendly": true,
+    "suitable_for_elders": true,
+    "suitable_for_kids": true,
+    "tags": ["Popular", "Heritage", "Royal", "Shopping"],
+    "attractions": [
+      {
+        "id": "jaipur-1",
+        "name": "Amber Fort & Palace Grandeur",
+        "category": "Fortress",
+        "type": "outdoor_indoor",
+        "duration_hours": 3.0,
+        "entry_fee": 100,
+        "coordinates": {"lat": 26.9855, "lng": 75.8513},
+        "description": "Iconic hilltop fort with Sheesh Mahal (Mirror Palace) and elephant/jeep transit.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "Anokhi Museum of Hand Printing",
+        "timings": "09:00 - 17:30"
+      },
+      {
+        "id": "jaipur-2",
+        "name": "City Palace & Royal Observatory (Jantar Mantar)",
+        "category": "Heritage",
+        "type": "indoor_outdoor",
+        "duration_hours": 2.5,
+        "entry_fee": 300,
+        "coordinates": {"lat": 26.9258, "lng": 75.8237},
+        "description": "Living royal palace showcasing textiles, weaponry, and world's largest stone sundial.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "Albert Hall Museum (Air Conditioned)",
+        "timings": "09:30 - 17:00"
+      },
+      {
+        "id": "jaipur-3",
+        "name": "Hawa Mahal Facade & Wind Palace Photo Walk",
+        "category": "Sightseeing",
+        "type": "outdoor",
+        "duration_hours": 1.5,
+        "entry_fee": 50,
+        "coordinates": {"lat": 26.9239, "lng": 75.8267},
+        "description": "953 jharokhas (small windows) honeycomb facade built for royal ladies to witness street life.",
+        "elder_accessible": true,
+        "wheelchair_accessible": false,
+        "indoor_alternative": "Tattoo Cafe Indoor Rooftop Gallery",
+        "timings": "09:00 - 17:00"
+      },
+      {
+        "id": "jaipur-4",
+        "name": "Nahargarh Fort Sunset Viewpoint",
+        "category": "Scenic View",
+        "type": "outdoor",
+        "duration_hours": 2.0,
+        "entry_fee": 50,
+        "coordinates": {"lat": 26.9378, "lng": 75.8155},
+        "description": "Panoramic sunset over the entire Pink City from the Aravali hills.",
+        "elder_accessible": false,
+        "wheelchair_accessible": false,
+        "indoor_alternative": "Jaipur Wax Museum Inside Nahargarh",
+        "timings": "10:00 - 20:00"
+      },
+      {
+        "id": "jaipur-5",
+        "name": "Johari & Bapu Bazaar Craft Walk",
+        "category": "Shopping & Culture",
+        "type": "outdoor",
+        "duration_hours": 2.5,
+        "entry_fee": 0,
+        "coordinates": {"lat": 26.9189, "lng": 75.8242},
+        "description": "Traditional pink-columned bazaars famous for lac bangles, blue pottery, and bandhani sarees.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "Rajasthali Government Handicrafts Emporium",
+        "timings": "11:00 - 20:30"
+      }
+    ],
+    "food_guide": {
+      "veg_options": ["Dal Baati Churma with Pure Ghee", "Gatte ki Sabzi", "Ker Sangri", "Pyaaz Kachori (Rawat)"],
+      "non_veg_options": ["Laal Maas (Fiery Mathania Chili Mutton)", "Jungli Maas", "Safed Maas"],
+      "jain_options": ["Authentic Jain Dal Baati with Boondi Churma", "Jain Gatte ki Kadhi", "Mawa Kachori"],
+      "halal_options": ["Halal Mutton Curry at Handi Restaurant", "Muhammadi Palace Kababs"],
+      "famous_cafes": ["Rawat Mishthan Bhandar", "LMB (Laxmi Mishthan Bhandar)", "Tapri Central Tea Bar"]
+    },
+    "precautions": [
+      "Carry water and sun hats during palace courtyard walks.",
+      "Negotiate politely with auto-rickshaws or use e-rickshaws / Uber.",
+      "Check museum closing times on national holidays."
+    ],
+    "packing_list": [
+      "Light woolen shawl or jacket for evenings",
+      "Comfortable walking shoes (marble floors can be slippery)",
+      "Sunglasses & wide brim hat",
+      "Camera with spare battery"
+    ],
+    "etiquette": [
+      "Remove footwear outside temples and sanctums.",
+      "Greet with 'Khamma Ghani' (traditional Rajasthani greeting).",
+      "Bargaining is expected in old bazaars, but do so with a smile."
+    ],
+    "emergency_info": {
+      "hospital": "Fortis Escorts Hospital, Malviya Nagar (+91 141 254 7000)",
+      "police": "Jaipur Tourist Police (+91 141 260 1888)",
+      "ambulance": "108",
+      "women_helpline": "1090"
+    }
+  },
+  {
+    "id": "munnar",
+    "name": "Munnar",
+    "tagline": "Emerald Hills, Cloud Peaks & Tea Estates",
+    "description": "A tranquil hill station nestled in Kerala's Western Ghats, blanketed by rolling tea gardens, misty waterfalls, and rare flora.",
+    "state": "Kerala",
+    "coordinates": {"lat": 10.0889, "lng": 77.0595},
+    "hero_image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=800&q=80",
+      "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&q=80"
+    ],
+    "vibes": ["Nature", "Relaxed", "Adventure"],
+    "best_season": "Sep - Mar (Misty 14°C - 24°C)",
+    "current_weather": {"temp": 18, "condition": "Misty", "humidity": 82, "wind_speed": 6, "is_mock": true},
+    "crowd_level": "Medium",
+    "safety_score": 96,
+    "avg_cost_per_day": 3200,
+    "cost_tiers": {
+      "budget": 1900,
+      "balanced": 3200,
+      "premium": 6500
+    },
+    "ideal_duration_days": 3,
+    "mobility_friendly": false,
+    "suitable_for_elders": true,
+    "suitable_for_kids": true,
+    "tags": ["Nature", "Hill Station", "Honeymoon", "Relaxed"],
+    "attractions": [
+      {
+        "id": "munnar-1",
+        "name": "KDHP Tea Museum & Factory Experience",
+        "category": "Culture & Industry",
+        "type": "indoor",
+        "duration_hours": 2.0,
+        "entry_fee": 150,
+        "coordinates": {"lat": 10.0880, "lng": 77.0620},
+        "description": "Fascinating journey of CTC tea processing with tea-tasting sessions.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "KDHP Tea Tasting & Film Screening Hall",
+        "timings": "09:00 - 17:00 (Closed Mondays)"
+      },
+      {
+        "id": "munnar-2",
+        "name": "Eravikulam National Park (Nilgiri Tahr Sanctuary)",
+        "category": "Wildlife & Nature",
+        "type": "outdoor",
+        "duration_hours": 3.5,
+        "entry_fee": 200,
+        "coordinates": {"lat": 10.1500, "lng": 77.0667},
+        "description": "Home to the endangered mountain goat and the blooming Neelakurinji flowers.",
+        "elder_accessible": true,
+        "wheelchair_accessible": false,
+        "indoor_alternative": "Floriculture Centre & Indoor Botanical House",
+        "timings": "07:30 - 16:00"
+      },
+      {
+        "id": "munnar-3",
+        "name": "Mattupetty Dam & Eco Point Boating",
+        "category": "Scenic Lake",
+        "type": "outdoor",
+        "duration_hours": 2.5,
+        "entry_fee": 50,
+        "coordinates": {"lat": 10.1064, "lng": 77.1245},
+        "description": "Speedboating, natural echo phenomenon, and misty hill views.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "Indo-Swiss Dairy Farm Audio-Visual Centre",
+        "timings": "09:00 - 17:30"
+      },
+      {
+        "id": "munnar-4",
+        "name": "Punarjani Traditional Kathakali & Kalaripayattu Village",
+        "category": "Culture",
+        "type": "indoor",
+        "duration_hours": 2.0,
+        "entry_fee": 300,
+        "coordinates": {"lat": 10.0244, "lng": 76.9961},
+        "description": "Spectacular live classical Kathakali dance and martial arts demonstration.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "Punarjani Cultural Hall (Indoor Theater)",
+        "timings": "17:00 - 20:00"
+      }
+    ],
+    "food_guide": {
+      "veg_options": ["Kerala Sadya served on banana leaf", "Appam with Vegetable Stew", "Puttu & Kadala Curry", "Idiyappam"],
+      "non_veg_options": ["Karimeen Pollichathu (Pearl spot fish)", "Kerala Malabar Chicken Roast", "Duck Roast"],
+      "jain_options": ["Jain Coconut Stew with Steamed Appam", "No-root Vegetable Thoran", "Jain Sadya by request"],
+      "halal_options": ["Halal Chicken Biryani at Rapsy Restaurant", "Mutton Stew"],
+      "famous_cafes": ["Rapsy Restaurant (Munnar Town)", "Saravana Bhavan Munnar", "Hill Spice Cafe"]
+    },
+    "precautions": [
+      "Mountain roads are winding; keep motion sickness pills if sensitive.",
+      "Carry a light fleece or warm layer as evening temperatures drop quickly.",
+      "Leach protection socks recommended if walking into deep wet tea gardens."
+    ],
+    "packing_list": [
+      "Warm fleece jacket or cardigan",
+      "Sturdy walking shoes with grip",
+      "Umbrella or waterproof rain jacket",
+      "Motion sickness medication"
+    ],
+    "etiquette": [
+      "Respect tea pickers at work and avoid plucking leaves without permission.",
+      "Keep the hills clean; strict zero-plastic waste rules are enforced."
+    ],
+    "emergency_info": {
+      "hospital": "Tata General Hospital, Munnar (+91 4865 230 400)",
+      "police": "Munnar Police Station (100 / +91 4865 230 321)",
+      "ambulance": "108",
+      "women_helpline": "1091"
+    }
+  },
+  {
+    "id": "manali",
+    "name": "Manali",
+    "tagline": "Himalayan Snow Peaks, Pine Forests & Solang Valley",
+    "description": "High-altitude haven in Himachal Pradesh offering snow sports, apple orchards, ancient cedar temples, and thrilling mountain passes.",
+    "state": "Himachal Pradesh",
+    "coordinates": {"lat": 32.2432, "lng": 77.1892},
+    "hero_image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
+      "https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?w=800&q=80"
+    ],
+    "vibes": ["Adventure", "Nature", "Relaxed"],
+    "best_season": "Oct - Jun (Snow in Dec-Feb, Crisp 5°C - 20°C)",
+    "current_weather": {"temp": 12, "condition": "Chilly & Clear", "humidity": 55, "wind_speed": 10, "is_mock": true},
+    "crowd_level": "High",
+    "safety_score": 91,
+    "avg_cost_per_day": 3500,
+    "cost_tiers": {
+      "budget": 2100,
+      "balanced": 3500,
+      "premium": 7200
+    },
+    "ideal_duration_days": 4,
+    "mobility_friendly": false,
+    "suitable_for_elders": true,
+    "suitable_for_kids": true,
+    "tags": ["Adventure", "Snow", "Mountains", "Popular"],
+    "attractions": [
+      {
+        "id": "manali-1",
+        "name": "Hadimba Devi Cedar Temple",
+        "category": "Heritage & Nature",
+        "type": "indoor_outdoor",
+        "duration_hours": 1.5,
+        "entry_fee": 0,
+        "coordinates": {"lat": 32.2483, "lng": 77.1804},
+        "description": "16th-century four-tiered pagoda wooden temple surrounded by gigantic deodar trees.",
+        "elder_accessible": true,
+        "wheelchair_accessible": false,
+        "indoor_alternative": "Museum of Himachal Culture & Folk Art",
+        "timings": "08:00 - 18:00"
+      },
+      {
+        "id": "manali-2",
+        "name": "Solang Valley Snow & Adventure Arena",
+        "category": "Adventure",
+        "type": "outdoor",
+        "duration_hours": 4.0,
+        "entry_fee": 500,
+        "coordinates": {"lat": 32.3166, "lng": 77.1578},
+        "description": "Paragliding, zorbing, ATV quad biking, and winter skiing with cable car rides.",
+        "elder_accessible": false,
+        "wheelchair_accessible": false,
+        "indoor_alternative": "Solang Ropeway Glass Restaurant & Indoor Games Lounge",
+        "timings": "09:00 - 17:00"
+      },
+      {
+        "id": "manali-3",
+        "name": "Atal Tunnel & Sissu Waterfall Gateway",
+        "category": "Scenic Engineering",
+        "type": "outdoor",
+        "duration_hours": 3.5,
+        "entry_fee": 0,
+        "coordinates": {"lat": 32.4415, "lng": 77.1642},
+        "description": "World's longest highway tunnel above 10,000 feet leading to dramatic Lahaul landscapes.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "Atal Tunnel Visitor Experience Centre",
+        "timings": "Open 24 Hours (Subject to weather permits)"
+      },
+      {
+        "id": "manali-4",
+        "name": "Old Manali Cafe Street & Manu Temple",
+        "category": "Vibe & Food",
+        "type": "outdoor",
+        "duration_hours": 2.5,
+        "entry_fee": 0,
+        "coordinates": {"lat": 32.2570, "lng": 77.1755},
+        "description": "Bohemian wooden cafes, live acoustic music, handmade woolen shops, and stone alleyways.",
+        "elder_accessible": false,
+        "wheelchair_accessible": false,
+        "indoor_alternative": "Cafe 1947 Riverside Lounge (Indoor Section)",
+        "timings": "10:00 - 22:30"
+      }
+    ],
+    "food_guide": {
+      "veg_options": ["Himachali Siddu with Ghee & Chutney", "Kullu Dham Thali", "Madra (Chickpeas in yogurt gravy)", "Tibetan Veg Thukpa"],
+      "non_veg_options": ["Trout Fish with Lemon Butter Sauce", "Chha Gosht (Himachali Mutton)", "Tibetan Pork Momos"],
+      "jain_options": ["Jain Veg Thukpa (Rice noodles in clear broth)", "No-onion Siddu", "Jain Paneer Curry"],
+      "halal_options": ["Halal Chicken Momos & Biryani at Mall Road", "Tandoori Trout"],
+      "famous_cafes": ["Cafe 1947", "The Lazy Dog Lounge", "Chopsticks Restaurant Mall Road"]
+    },
+    "precautions": [
+      "Acclimatize slowly; avoid excessive cardio on Day 1 if feeling altitude shortness.",
+      "Check Atal tunnel & Rohtang pass snow advisories before heading out early.",
+      "Rent certified snow suits and boots directly at official government stands."
+    ],
+    "packing_list": [
+      "Heavy thermal innerwear & windproof down jacket",
+      "Woolen gloves, beanie and thermal socks",
+      "Polarized sunglasses for snow glare",
+      "Lip balm & high-moisture cold cream"
+    ],
+    "etiquette": [
+      "Spin prayer wheels only in clockwise direction at monasteries.",
+      "Keep noise levels low in silent pine forest trails."
+    ],
+    "emergency_info": {
+      "hospital": "Civil Hospital Manali, Model Town (+91 1902 252 357)",
+      "police": "Manali Police Station (100 / +91 1902 252 322)",
+      "ambulance": "108",
+      "women_helpline": "1091"
+    }
+  },
+  {
+    "id": "hampi",
+    "name": "Hampi",
+    "tagline": "Ancient Boulder Landscapes & Vijayanagara Ruins",
+    "description": "UNESCO World Heritage open-air museum filled with monolithic granite temples, royal baths, and stunning sunsets over the Tungabhadra river.",
+    "state": "Karnataka",
+    "coordinates": {"lat": 15.3350, "lng": 76.4600},
+    "hero_image": "https://images.unsplash.com/photo-1600100397608-f40b28ecbe96?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1600100397608-f40b28ecbe96?w=800&q=80",
+      "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&q=80"
+    ],
+    "vibes": ["Cultural", "Adventure", "Hidden Gem"],
+    "best_season": "Oct - Feb (Pleasant 20°C - 30°C)",
+    "current_weather": {"temp": 27, "condition": "Breezy & Sunny", "humidity": 40, "wind_speed": 14, "is_mock": true},
+    "crowd_level": "Low-Medium",
+    "safety_score": 94,
+    "avg_cost_per_day": 2600,
+    "cost_tiers": {
+      "budget": 1600,
+      "balanced": 2600,
+      "premium": 5500
+    },
+    "ideal_duration_days": 3,
+    "mobility_friendly": false,
+    "suitable_for_elders": false,
+    "suitable_for_kids": true,
+    "tags": ["Hidden Gem", "Heritage", "UNESCO", "Photography"],
+    "attractions": [
+      {
+        "id": "hampi-1",
+        "name": "Vijaya Vittala Temple & Stone Chariot",
+        "category": "Architecture",
+        "type": "outdoor",
+        "duration_hours": 2.5,
+        "entry_fee": 40,
+        "coordinates": {"lat": 15.3435, "lng": 76.4789},
+        "description": "56 musical pillars that produce resonant tones and the legendary stone chariot on the 50 rupee note.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "Hampi Archaeological Museum, Kamalapur",
+        "timings": "08:30 - 17:30"
+      },
+      {
+        "id": "hampi-2",
+        "name": "Virupaksha Temple & Sacred Bazaar",
+        "category": "Heritage & Pilgrimage",
+        "type": "outdoor_indoor",
+        "duration_hours": 2.0,
+        "entry_fee": 25,
+        "coordinates": {"lat": 15.3353, "lng": 76.4600},
+        "description": "Oldest continuously operating 7th-century sanctuary with temple elephant Lakshmi.",
+        "elder_accessible": true,
+        "wheelchair_accessible": false,
+        "indoor_alternative": "Virupaksha Inverted Pinhole Camera Chamber",
+        "timings": "06:00 - 19:00"
+      },
+      {
+        "id": "hampi-3",
+        "name": "Coracle Ride on Tungabhadra River & Sanapur Lake",
+        "category": "Adventure & Nature",
+        "type": "outdoor",
+        "duration_hours": 2.0,
+        "entry_fee": 300,
+        "coordinates": {"lat": 15.3522, "lng": 76.4722},
+        "description": "Circular wicker-boat drift beneath colossal boulder canyons.",
+        "elder_accessible": false,
+        "wheelchair_accessible": false,
+        "indoor_alternative": "Indoor Boulder Climbing Wall & Hippie Cafe",
+        "timings": "07:00 - 18:00"
+      },
+      {
+        "id": "hampi-4",
+        "name": "Matanga Hill Sunrise Panorama",
+        "category": "Scenic View",
+        "type": "outdoor",
+        "duration_hours": 2.0,
+        "entry_fee": 0,
+        "coordinates": {"lat": 15.3340, "lng": 76.4660},
+        "description": "360-degree viewpoint looking out over endless rocky monoliths and green paddy fields.",
+        "elder_accessible": false,
+        "wheelchair_accessible": false,
+        "indoor_alternative": "Queen's Bath & Lotus Mahal Pavilion",
+        "timings": "05:30 - 18:30"
+      }
+    ],
+    "food_guide": {
+      "veg_options": ["Traditional Karnataka Benne Dosa", "Jolada Rotti Oota (Sorghum flatbread with brinjal curry)", "Bisi Bele Bath", "Mango Lassi"],
+      "non_veg_options": ["Koppal Style Mutton Curry", "Fish Thali (served across the river in Anegundi)"],
+      "jain_options": ["Jain Jolada Rotti with Lentil Gravy", "Plain Butter Podi Dosa", "Fruit Salads with Nut Milk"],
+      "halal_options": ["Halal Chicken Fried Rice at Mango Tree", "Hospet Biryani House"],
+      "famous_cafes": ["Mango Tree Restaurant", "Laughing Buddha Cafe", "Gopi Guesthouse Rooftop"]
+    },
+    "precautions": [
+      "Midday sun can be scorching; plan outdoor ruins exploration for early morning and late afternoon.",
+      "Wear sports shoes with firm tread for climbing boulder staircases.",
+      "Carry sufficient cash as some temple ticket counters face network drops."
+    ],
+    "packing_list": [
+      "Breathable linen clothing",
+      "Wide-brimmed sun hat & UV protection sunglasses",
+      "Sturdy hiking shoes",
+      "Refillable water flask with electrolyte powder"
+    ],
+    "etiquette": [
+      "Refrain from climbing directly on sculpted stone reliefs and pillar motifs.",
+      "Footwear must be deposited outside functioning sanctums."
+    ],
+    "emergency_info": {
+      "hospital": "100-Bed Government Hospital, Hospet (12 km, +91 8394 228 100)",
+      "police": "Hampi Tourist Police Station (+91 8394 241 240)",
+      "ambulance": "108",
+      "women_helpline": "1091"
+    }
+  },
+  {
+    "id": "varanasi",
+    "name": "Varanasi",
+    "tagline": "The Spiritual Capital of India & Sacred Ghats",
+    "description": "One of the world's oldest continually inhabited cities, sacred to millions, vibrant with riverside aartis, ancient silk weavers, and labyrinthine alleys.",
+    "state": "Uttar Pradesh",
+    "coordinates": {"lat": 25.3176, "lng": 82.9739},
+    "hero_image": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=800&q=80",
+      "https://images.unsplash.com/photo-1571536802807-30451e3955d8?w=800&q=80"
+    ],
+    "vibes": ["Cultural", "Foodie", "Pilgrimage"],
+    "best_season": "Oct - Mar (Pleasant 14°C - 26°C)",
+    "current_weather": {"temp": 23, "condition": "Hazy Sunshine", "humidity": 50, "wind_speed": 7, "is_mock": true},
+    "crowd_level": "Very High",
+    "safety_score": 88,
+    "avg_cost_per_day": 2400,
+    "cost_tiers": {
+      "budget": 1500,
+      "balanced": 2400,
+      "premium": 5800
+    },
+    "ideal_duration_days": 3,
+    "mobility_friendly": false,
+    "suitable_for_elders": true,
+    "suitable_for_kids": false,
+    "tags": ["Pilgrimage", "Culture", "Heritage", "Spiritual"],
+    "attractions": [
+      {
+        "id": "varanasi-1",
+        "name": "Dashashwamedh Ghat Evening Ganga Aarti",
+        "category": "Spiritual Spectacle",
+        "type": "outdoor",
+        "duration_hours": 2.0,
+        "entry_fee": 0,
+        "coordinates": {"lat": 25.3076, "lng": 83.0104},
+        "description": "Grand synchronized ritual with multi-tiered brass oil lamps, conch shells, and devotional chants.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "Private Ghat View Heritage Balcony",
+        "timings": "18:00 - 20:00"
+      },
+      {
+        "id": "varanasi-2",
+        "name": "Kashi Vishwanath Corridor & Golden Temple",
+        "category": "Pilgrimage",
+        "type": "indoor_outdoor",
+        "duration_hours": 2.5,
+        "entry_fee": 0,
+        "coordinates": {"lat": 25.3109, "lng": 83.0107},
+        "description": "Revered Jyotirlinga shrine renovated with spacious stone corridor stretching to the river.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "Kashi Vishwanath Temple Museum & Audioguide Centre",
+        "timings": "04:00 - 22:00"
+      },
+      {
+        "id": "varanasi-3",
+        "name": "Dawn Rowing Boat Cruise (Assi to Manikarnika Ghat)",
+        "category": "Scenic Boat Cruise",
+        "type": "outdoor",
+        "duration_hours": 2.0,
+        "entry_fee": 400,
+        "coordinates": {"lat": 25.2970, "lng": 83.0060},
+        "description": "Watch the morning sun rise over the mystical eastern riverbanks as sadhus perform sun salutations.",
+        "elder_accessible": true,
+        "wheelchair_accessible": false,
+        "indoor_alternative": "Subah-e-Banaras Classical Music Pavilion at Assi Ghat",
+        "timings": "05:30 - 08:00"
+      },
+      {
+        "id": "varanasi-4",
+        "name": "Sarnath Buddhist Deer Park & Dhamek Stupa",
+        "category": "Heritage & Peace",
+        "type": "outdoor_indoor",
+        "duration_hours": 3.0,
+        "entry_fee": 25,
+        "coordinates": {"lat": 25.3811, "lng": 83.0214},
+        "description": "Where Lord Buddha gave his first sermon; features the original Ashoka Lion Capital museum.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "Sarnath Archaeological Museum (Indoor)",
+        "timings": "09:00 - 17:00"
+      }
+    ],
+    "food_guide": {
+      "veg_options": ["Banarasi Kachori Sabzi & Jalebi breakfast", "Tamatar Chaat (Deena Chaat Bhandar)", "Malaiyo (Saffron winter milk foam)", "Blue Lassi (50+ flavors)"],
+      "non_veg_options": ["Available outside the sacred old quarter (Cantt area mutton curries)"],
+      "jain_options": ["Pure Jain Kachori without onion/garlic at Kashi outlets", "Jain Malaiyo & Kesar Rabri", "Jain Thali at Sri Krishna Bhawan"],
+      "halal_options": ["Mughlai Kebabs and Nihari in Madanpura"],
+      "famous_cafes": ["Deena Chaat Bhandar", "Blue Lassi Shop", "Kashi Tea Stall Assi Ghat"]
+    },
+    "precautions": [
+      "Keep wallets secure inside crowded narrow lanes (galis).",
+      "Book government-approved boatmen to ensure standardized rates.",
+      "Wear easy slip-on shoes for temple visits."
+    ],
+    "packing_list": [
+      "Modest, breathable cotton clothes",
+      "Easy slip-on walking sandals",
+      "Hand sanitizer & wet wipes",
+      "Scarf for sun/smoke protection"
+    ],
+    "etiquette": [
+      "Strictly no photography allowed at cremation ghats (Manikarnika and Harishchandra).",
+      "Respect priests and pilgrims performing morning ablutions."
+    ],
+    "emergency_info": {
+      "hospital": "Banaras Hindu University (BHU) Sir Sunderlal Hospital (+91 542 230 7500)",
+      "police": "Dashashwamedh Police Station (100 / +91 542 245 1200)",
+      "ambulance": "108",
+      "women_helpline": "1090"
+    }
+  },
+  {
+    "id": "coorg",
+    "name": "Coorg (Kodagu)",
+    "tagline": "The Scotland of India, Coffee Estates & Waterfalls",
+    "description": "Mist-shrouded hills in Karnataka with lush arabica coffee plantations, cardamom groves, wildlife sanctuaries, and rich Kodava martial culture.",
+    "state": "Karnataka",
+    "coordinates": {"lat": 12.3375, "lng": 75.8069},
+    "hero_image": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=800&q=80"
+    ],
+    "vibes": ["Relaxed", "Nature", "Foodie", "Hidden Gem"],
+    "best_season": "Oct - Mar (Cool 15°C - 25°C)",
+    "current_weather": {"temp": 20, "condition": "Overcast & Refreshing", "humidity": 75, "wind_speed": 9, "is_mock": true},
+    "crowd_level": "Medium",
+    "safety_score": 95,
+    "avg_cost_per_day": 3100,
+    "cost_tiers": {
+      "budget": 1800,
+      "balanced": 3100,
+      "premium": 6400
+    },
+    "ideal_duration_days": 3,
+    "mobility_friendly": true,
+    "suitable_for_elders": true,
+    "suitable_for_kids": true,
+    "tags": ["Nature", "Coffee", "Relaxed", "Hidden Gem"],
+    "attractions": [
+      {
+        "id": "coorg-1",
+        "name": "Coffee & Spice Plantation Walking Trail",
+        "category": "Agri-Tourism",
+        "type": "outdoor",
+        "duration_hours": 2.5,
+        "entry_fee": 200,
+        "coordinates": {"lat": 12.4200, "lng": 75.7300},
+        "description": "Guided tasting of single-origin robusta/arabica beans and fresh black pepper harvesting.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "Indoor Coffee Roastery & Cupping Lab",
+        "timings": "09:00 - 17:00"
+      },
+      {
+        "id": "coorg-2",
+        "name": "Abbey Falls & Hanging Bridge",
+        "category": "Waterfall",
+        "type": "outdoor",
+        "duration_hours": 1.5,
+        "entry_fee": 15,
+        "coordinates": {"lat": 12.4540, "lng": 75.7170},
+        "description": "Roaring waterfall cascading through lush private coffee estates.",
+        "elder_accessible": false,
+        "wheelchair_accessible": false,
+        "indoor_alternative": "Madikeri Fort Museum & Palace",
+        "timings": "09:00 - 17:00"
+      },
+      {
+        "id": "coorg-3",
+        "name": "Namdroling Golden Temple (Bylakuppe Tibetan Settlement)",
+        "category": "Spiritual & Heritage",
+        "type": "indoor_outdoor",
+        "duration_hours": 2.0,
+        "entry_fee": 0,
+        "coordinates": {"lat": 12.4550, "lng": 75.9650},
+        "description": "Magnificent 40-foot gilded Buddha statues and reverberating Tibetan prayer chants.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "Namdroling Tibetan Monastery Main Hall",
+        "timings": "09:00 - 18:00"
+      },
+      {
+        "id": "coorg-4",
+        "name": "Raja's Seat Sunset Garden & Musical Fountain",
+        "category": "Scenic Park",
+        "type": "outdoor",
+        "duration_hours": 1.5,
+        "entry_fee": 20,
+        "coordinates": {"lat": 12.4180, "lng": 75.7360},
+        "description": "Historic viewpoint where Kodagu royalty watched sunset over rolling green valleys.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "Vintage Toy Train Pavilion",
+        "timings": "06:00 - 20:00"
+      }
+    ],
+    "food_guide": {
+      "veg_options": ["Akki Rotti (Rice flatbread) with Bamboo Shoot Curry (Kani Curry)", "Mushroom Curry", "Kadambuttu (Steamed rice balls) with Veg Gravy"],
+      "non_veg_options": ["Pandi Curry (Iconic Coorg Pork with Kachampuli vinegar)", "Koli Curry (Kodava Chicken)", "Dry Fish Fry"],
+      "jain_options": ["Jain Akki Rotti with Coconut Chutney", "Jain Kadambuttu with Dal Gravy"],
+      "halal_options": ["Halal Coorg Chicken Biryani at Hotel Capitol", "Mutton Pepper Fry"],
+      "famous_cafes": ["Big Cup Cafe (Madikeri)", "Coorg Cuisine Restaurant", "Raintree Restaurant"]
+    },
+    "precautions": [
+      "Carry umbrellas during monsoon/post-monsoon as passing showers are frequent.",
+      "Check estate opening times before driving down private estate mud paths."
+    ],
+    "packing_list": [
+      "Light sweater or fleece jacket",
+      "Sturdy walking shoes",
+      "Raincoat or compact umbrella",
+      "Insulated coffee tumbler"
+    ],
+    "etiquette": [
+      "Respect estate boundaries and avoid trampling seedlings.",
+      "Maintain quiet decorum in Tibetan monasteries."
+    ],
+    "emergency_info": {
+      "hospital": "District Hospital Madikeri (+91 8272 225 350)",
+      "police": "Madikeri Town Police Station (100 / +91 8272 228 333)",
+      "ambulance": "108",
+      "women_helpline": "1091"
+    }
+  },
+  {
+    "id": "andaman",
+    "name": "Andaman Islands",
+    "tagline": "Turquoise Lagoons, Coral Reefs & Tropical Paradise",
+    "description": "Archipelago in the Bay of Bengal boasting crystal-clear azure waters, Radhanagar white sand beaches, active coral reefs, and historical Cellular Jail.",
+    "state": "Andaman & Nicobar Islands",
+    "coordinates": {"lat": 11.6234, "lng": 92.7265},
+    "hero_image": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=800&q=80",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80"
+    ],
+    "vibes": ["Adventure", "Relaxed", "Nature", "Honeymoon"],
+    "best_season": "Nov - May (Warm 23°C - 30°C)",
+    "current_weather": {"temp": 29, "condition": "Tropical Sunshine", "humidity": 70, "wind_speed": 15, "is_mock": true},
+    "crowd_level": "Medium",
+    "safety_score": 97,
+    "avg_cost_per_day": 4500,
+    "cost_tiers": {
+      "budget": 2800,
+      "balanced": 4500,
+      "premium": 9500
+    },
+    "ideal_duration_days": 5,
+    "mobility_friendly": true,
+    "suitable_for_elders": true,
+    "suitable_for_kids": true,
+    "tags": ["Beach", "Adventure", "Snorkeling", "Island"],
+    "attractions": [
+      {
+        "id": "andaman-1",
+        "name": "Radhanagar Beach (Havelock Island) - Asia's Best Beach",
+        "category": "Beach & Sunset",
+        "type": "outdoor",
+        "duration_hours": 3.5,
+        "entry_fee": 0,
+        "coordinates": {"lat": 11.9840, "lng": 92.9510},
+        "description": "Pristine turquoise water framed by lush tropical rainforest, famous for breath-taking sunsets.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "Barefoot Scuba Marine Research Lounge",
+        "timings": "06:00 - 18:30"
+      },
+      {
+        "id": "andaman-2",
+        "name": "Cellular Jail National Memorial & Light Show",
+        "category": "National Heritage",
+        "type": "indoor_outdoor",
+        "duration_hours": 2.5,
+        "entry_fee": 50,
+        "coordinates": {"lat": 11.6739, "lng": 92.7478},
+        "description": "Historic colonial prison housing freedom fighters with poignant evening light and sound narration.",
+        "elder_accessible": true,
+        "wheelchair_accessible": true,
+        "indoor_alternative": "Cellular Jail Historical Gallery & Photo Archive",
+        "timings": "09:00 - 17:00 (Show: 18:00 - 20:00)"
+      },
+      {
+        "id": "andaman-3",
+        "name": "Elephant Beach Snorkeling & Sea Walk",
+        "category": "Marine Adventure",
+        "type": "outdoor",
+        "duration_hours": 3.0,
+        "entry_fee": 750,
+        "coordinates": {"lat": 12.0120, "lng": 92.9640},
+        "description": "Vibrant shallow coral reef exploration, sea walking with underwater helmet, and glass-bottom boats.",
+        "elder_accessible": false,
+        "wheelchair_accessible": false,
+        "indoor_alternative": "Samudrika Naval Marine Museum Port Blair",
+        "timings": "08:00 - 16:00"
+      },
+      {
+        "id": "andaman-4",
+        "name": "Ross Island (Netaji Subhash Chandra Bose Island)",
+        "category": "Island Ruins",
+        "type": "outdoor",
+        "duration_hours": 2.5,
+        "entry_fee": 50,
+        "coordinates": {"lat": 11.6760, "lng": 92.7630},
+        "description": "Historic ruins wrapped by banyan tree roots, friendly spotted deers, and peacocks.",
+        "elder_accessible": true,
+        "wheelchair_accessible": false,
+        "indoor_alternative": "Anthropological Museum Port Blair",
+        "timings": "08:30 - 16:30"
+      }
+    ],
+    "food_guide": {
+      "veg_options": ["South Indian Rice Meals with fresh coconut chutney", "Paneer Tikka with tropical lime soda", "Vegetable Stew with Idiyappam"],
+      "non_veg_options": ["Fresh Grilled Red Snapper with Garlic Butter", "Lobster Thermidor", "Crab Masala", "Chilli Squid"],
+      "jain_options": ["Pure Jain South Indian Dosas & Meals at Annapurna", "Jain Paneer Rice Bowl"],
+      "halal_options": ["Halal Seafood Platter at New Lighthouse Restaurant", "Chicken Chettinad"],
+      "famous_cafes": ["Full Moon Cafe (Havelock)", "Something Different - A Beachside Cafe", "Annapurna Pure Veg (Port Blair)"]
+    },
+    "precautions": [
+      "Strict prohibition on collecting corals or seashells (heavy fines at airport security).",
+      "Pre-book inter-island high-speed ferries (Makruzz / Nautika) to avoid delays.",
+      "Wear life jackets at all times during watercraft excursions."
+    ],
+    "packing_list": [
+      "Quick-dry UV rash guard & swimwear",
+      "Reef-safe sunscreen & sunglasses",
+      "Waterproof dry bag for boat journeys",
+      "Extra memory card for underwater photography"
+    ],
+    "etiquette": [
+      "Never touch living coral structures or disturb marine creatures.",
+      "Do not attempt to contact or photograph indigenous tribal protected zones."
+    ],
+    "emergency_info": {
+      "hospital": "G.B. Pant Hospital, Port Blair (+91 3192 232 102)",
+      "police": "Andaman Tourist Police (+91 3192 232 100 / 100)",
+      "ambulance": "108",
+      "women_helpline": "1091"
+    }
+  }
+]

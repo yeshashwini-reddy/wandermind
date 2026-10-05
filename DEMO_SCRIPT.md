@@ -1,0 +1,109 @@
+# 🎬 WanderMind: University Presentation & Live Demo Script
+
+> **Course:** Fundamentals of Artificial Intelligence  
+> **Project:** WanderMind — Autonomous Multi-Agent Trip Planner & Real-Time Replanning Engine  
+> **Demo Duration:** ~5–7 minutes
+
+---
+
+## 🎯 Presentation Objectives
+Show how WanderMind satisfies all 6 requirements:
+1. **R1 (Problem Statement):** Traditional static planners break when weather, transit, or group consensus shifts.
+2. **R2 (Multi-Agent System):** LangGraph supervisor coordinating 8 specialist agents.
+3. **R3 (Meaningful AI/LLM):** Autonomous decision-making, Observe-Think-Act-Check loops, tool invocation, and hard constraint enforcement.
+4. **R4 (Working Implementation):** Runs end-to-end on React 18 + FastAPI.
+5. **R5 (Clear Architecture):** Visualized in-app at `/architecture` with tools and fallback guarantees.
+6. **R6 (Live Demonstration):** Real-time event replanning diff, simulated booking, and live telemetry.
+
+---
+
+## 🧭 Step-by-Step Demo Flow
+
+### 1️⃣ Step 1: Landing Page & Problem Statement (1 min)
+- **URL:** `http://localhost:5173/`
+- **Key Points to Highlight:**
+  - Point to the **Problem Statement banner**: *"Existing planners give a static itinerary and fail the moment reality changes."*
+  - Point to the live **Agent Activity Panel** in the bottom corner connected via **Server-Sent Events (SSE)**.
+  - Click **"Plan My Trip with AI Agents"**.
+
+---
+
+### 2️⃣ Step 2: Smart Intake Wizard (1.5 min)
+- **URL:** `http://localhost:5173/plan`
+- **Demo Inputs:**
+  - **Step 1 (Occasion):** Select **Family Vacation** (multigenerational).
+  - **Step 2 (Travelers):** Set **4 travelers** (Ages: 65, 38, 35, 8). Toggle **Elder Mode ON** and **Kid Friendly ON**.
+  - **Step 3 (Dates & City):** New Delhi &rarr; 3 Days.
+  - **Step 4 (Budget):** Set slider to **₹30,000**.
+    - *Highlight:* Show the **animated Budget Donut**: automatically allocates 30% Travel, 30% Stay, 20% Food, 10% Activities, and **locks a 10% Emergency Buffer (₹3,000)**.
+  - **Step 5 (Vibes & Diets):** Select **Cultural + Relaxed**, Diet = **Vegetarian (Strict)**, Fear = **Avoid steep heights**.
+  - **Step 6 (Personality & Group Mode):** Answer quiz question & click **"Generate AI Destination Recommendations"**.
+
+---
+
+### 3️⃣ Step 3: Destination Suggestions & Match Scores (1 min)
+- **URL:** `http://localhost:5173/destinations`
+- **Key Points to Highlight:**
+  - Show the ranked cards (Goa, Jaipur, Munnar, etc.) with animated **Match Score Rings (e.g. 96%, 92%)**.
+  - Highlight the **"Why WanderMind AI Chose This"** reasons matching elder accessibility and diet.
+  - Show the **Budget / Balanced / Premium** cost tier switchers.
+  - Show the live **OpenWeather / Demo Data** weather pill.
+  - Click **"View Custom Itinerary"** on **Goa** or **Jaipur**.
+
+---
+
+### 4️⃣ Step 4: Hour-by-Hour Itinerary & Precautions (1 min)
+- **URL:** `http://localhost:5173/itinerary/:id`
+- **Key Points to Highlight:**
+  - Show the **hour-by-hour timeline** with transit times, entry fees, and diet-matched dining spots.
+  - Show the **interactive Leaflet Route Map** drawing the day's route line and pins.
+  - Show the checkable **Packing Checklist**, **Regional Food Guide**, and **Emergency SOS Card** (Hospital 108 & Tourist Police).
+  - Click **"Story Mode"** to show multi-lingual English, Hindi, and Telugu narrative voice summary.
+
+---
+
+### 5️⃣ Step 5: THE KEY FEATURE — Real-Time Replanning (1.5 min)
+- **Action:**
+  - Under the **Real-Time Dynamic Replanner Simulator**, click **"It's Raining"** (or *"Train Delayed 2h"*).
+- **Observe the AI Agent in Action:**
+  - The `<AgentActivityPanel />` pulses: *Replanner Agent detects 15mm/h rainfall radar... re-scoring schedule... swapping outdoor beach for indoor museum...*
+  - An animated **BEFORE vs AFTER Diff card** appears:
+    - ❌ *BEFORE:* Open Beach & Water Sports &rarr; ✅ *AFTER:* Central Heritage Museum (Air Conditioned)
+    - ❌ *BEFORE:* Hilltop Fortress &rarr; ✅ *AFTER:* Covered Tea Tasting Pavilion & Handloom Guild
+    - 📋 Line-by-line reason and budget impact displayed for each change.
+
+---
+
+### 6️⃣ Step 6: Booking & Simulated Checkout (1 min)
+- **URL:** `http://localhost:5173/booking/:id`
+- **Key Points to Highlight:**
+  - Toggle **"AI Best Deal Mode"**: Highlight the AI trade-off verdict and savings calculation.
+  - Show the 3 ranked options: **Fastest (Flight)**, **Best Value (Vande Bharat Train)**, **Cheapest (Volvo Bus)**.
+  - Point out cancellation policy risk flags (Non-refundable badges).
+  - Click **"Confirm & Pay"** on the simulated checkout form.
+  - 🎉 **Confetti explosion** triggers with the confirmed booking modal!
+
+---
+
+### 7️⃣ Step 7: PDF Receipt & Live Trip Dashboard (1 min)
+- **URL:** `http://localhost:5173/receipt/:id` & `http://localhost:5173/live/:id`
+- **Key Points to Highlight:**
+  - Show the **Official E-Receipt** with lead traveler details and QR check-in pass.
+  - Click **"Download PDF Receipt"** to show the ReportLab PDF generated by the backend.
+  - Navigate to `/live/:id` to show:
+    - **Budget Guardian spend tracker**
+    - **Who-Owes-Whom group debt simplification graph**
+    - Quick expense logger adding new receipts and rebalancing daily limits.
+
+---
+
+### 8️⃣ Step 8: Architecture & Evaluation Pages (1 min)
+- **URL:** `http://localhost:5173/architecture` and `/evaluation`
+- **Key Points to Highlight:**
+  - **Architecture page:** Walk through the 8 specialist agents, tool integrations, and Observe-Think-Act-Check lifecycle diagram.
+  - **Evaluation page:** Click **"Run All 10 Benchmarks"** to run 10 hard-constraint test scenarios live (Family at 30k, Rain replan, Jain diet, Train delay, Wheelchair accessibility) with a **100% Pass Rate**.
+
+---
+
+## 🏆 Summary Punchline for the Panel
+> *"WanderMind is not just another chatbot with a single prompt. It is a true multi-agent system that monitors your trip 24/7 and ensures you never get stranded when reality diverges from the plan."*
