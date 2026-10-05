@@ -9,6 +9,7 @@ load_dotenv()
 from fastapi import FastAPI, HTTPException, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse, FileResponse
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from typing import Dict, Any, List
 
@@ -257,6 +258,65 @@ async def agent_stream(trip_id: str, request: Request):
 async def evaluation_benchmark_endpoint():
     return await run_all_benchmarks()
 
+# Path to frontend production build (React + Vite)
+FRONTEND_DIST = os.getenv("FRONTEND_DIST_DIR") or os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "frontend", "dist"))
+if not os.path.exists(FRONTEND_DIST):
+    for candidate in [
+        "/app/frontend/dist",
+        os.path.abspath(os.path.join(os.path.dirname(__file__), "dist")),
+        os.path.abspath(os.path.join(os.path.dirname(__file__), "static")),
+        "/app/dist"
+    ]:
+        if os.path.exists(candidate):
+            FRONTEND_DIST = candidate
+            break
+
+# Mount /assets static directory for Vite CSS/JS chunks
+assets_dir = os.path.join(FRONTEND_DIST, "assets")
+if os.path.exists(assets_dir):
+    app.mount("/assets", StaticFiles(directory=assets_dir), name="assets")
+
+# Mount /images if present in dist
+images_dir = os.path.join(FRONTEND_DIST, "images")
+if os.path.exists(images_dir):
+    app.mount("/images", StaticFiles(directory=images_dir), name="images")
+
+# 12. Root & Catch-all SPA Routes for React Frontend (/, /plan, /destinations, /maps, /login, etc.)
+@app.get("/")
+async def serve_spa_root():
+    index_html = os.path.join(FRONTEND_DIST, "index.html")
+    if os.path.isfile(index_html):
+        return FileResponse(index_html)
+    return {
+        "status": "online",
+        "service": "WanderMind Full-Stack API",
+        "message": "Frontend build not detected. Please build the frontend."
+    }
+
+@app.get("/{full_path:path}")
+async def serve_spa_frontend(full_path: str):
+    # Do not intercept unmatched /api/ routes
+    if full_path.startswith("api/") or full_path == "api":
+        raise HTTPException(status_code=404, detail=f"API route '/{full_path}' not found")
+
+    # Check if a static file directly in frontend/dist exists (e.g. favicon.svg, icons.svg, manifest.json)
+    requested_file = os.path.join(FRONTEND_DIST, full_path)
+    if os.path.isfile(requested_file):
+        return FileResponse(requested_file)
+
+    # Return index.html for client-side routing
+    index_html = os.path.join(FRONTEND_DIST, "index.html")
+    if os.path.isfile(index_html):
+        return FileResponse(index_html)
+
+    return {
+        "status": "online",
+        "service": "WanderMind Full-Stack API",
+        "message": "Frontend build not detected. Please build the frontend."
+    }
+
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
+    port = int(os.getenv("PORT", 8000))
+    host = os.getenv("HOST", "0.0.0.0")
+    uvicorn.run("main:app", host=host, port=port, reload=False)

@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://127.0.0.1:8000';
+// Use relative API base URL in production, or optional override from environment
+const API_BASE_URL = import.meta.env.VITE_API_URL || '';
 const N8N_WEBHOOK_URL = import.meta.env.VITE_N8N_WEBHOOK_URL || 'https://yeshashwini.app.n8n.cloud/webhook/wandermind-plan';
 
 // n8n AI Agent Webhook API with comprehensive diagnostic logging
